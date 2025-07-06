@@ -1,0 +1,35 @@
+.create-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-post h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.post-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #1565c0;
+} 
